@@ -247,7 +247,6 @@ body.nav-active {overflow: hidden;}
   border-radius: var(--radius-circle);
   border: 3px solid var(--white);
   border-block-start-color: var(--smoky-black-3);
-  margin-block-start-color: 45px;
   margin-block-end: 45PX;
   animation: rotate360 1s linear infinite;
 }
