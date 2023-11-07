@@ -252,6 +252,11 @@ body.nav-active {overflow: hidden;}
   animation: rotate360 1s linear infinite;
 }
 
+@keyframes rotate360{
+  0% {transform: rotate(0);}
+  100% {transform: rotate(1turn);}
+}
+
 
 
 
