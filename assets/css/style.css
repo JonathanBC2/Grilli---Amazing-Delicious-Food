@@ -257,6 +257,14 @@ body.nav-active {overflow: hidden;}
   100% {transform: rotate(1turn);}
 }
 
+.preload .text{
+  background-image: var(--loading-text-gradient);
+  background-size: 500%;
+  font-size: calc(2rem + 3vw);
+  font-weight: var(--weight-bold);
+  line-height: 1em;
+}
+
 
 
 
