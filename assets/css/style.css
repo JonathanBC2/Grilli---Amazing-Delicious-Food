@@ -232,6 +232,26 @@ body.nav-active {overflow: hidden;}
   transition: var(--transition-2);
 }
 
+.preload > * {transition: var(--transition-1);}
+
+.preload.loaded > * {opacity: 0;}
+
+.preload.loaded {
+  transition: 250ms;
+  transform: translateY(100%);
+}
+
+.circle{
+  width: 112px;
+  height: 112px;
+  border-radius: var(--radius-circle);
+  border: 3px solid var(--white);
+  border-block-start-color: var(--smoky-black-3);
+  margin-block-start-color: 45px;
+  margin-block-end: 45PX;
+  animation: rotate360 1s linear infinite;
+}
+
 
 
 
