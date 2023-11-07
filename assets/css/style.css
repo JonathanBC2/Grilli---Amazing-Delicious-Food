@@ -268,6 +268,9 @@ body.nav-active {overflow: hidden;}
   padding-inline-start: 16px;
   -webkit-text-fill-color: transparent;
   background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-stroke: 0.5px var(--eerie-black-3);
+  animation: loadingText linear 2s infinite;
 }
 
 
