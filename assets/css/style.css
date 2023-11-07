@@ -273,6 +273,11 @@ body.nav-active {overflow: hidden;}
   animation: loadingText linear 2s infinite;
 }
 
+@keyframes loadingText{
+  0% {background-position: 100%;}
+  100% {background-position: 0%;}
+}
+
 
 
 
