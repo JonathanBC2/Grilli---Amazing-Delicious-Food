@@ -245,6 +245,13 @@ body.nav-active {overflow: hidden;}
   line-height: var(--lineHeight-4);
 }
 
+.body-3{font-size: var(--fontSize-body-3);}
+
+.body-4{font-size: var(--fontSize-body-4);}
+
+.label-1{font-size: var(--fontSize-label-1);}
+
+.label-2{font-size: var(--fontSize-label-2);}
 
 
 
