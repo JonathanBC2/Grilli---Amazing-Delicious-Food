@@ -382,7 +382,9 @@ body.nav-active {overflow: hidden;}
   #HEADER
 \*-----------------------------------*/
 
-
+.navbar,
+.overlay,
+.header .btn {display: none;}
 
 
 
