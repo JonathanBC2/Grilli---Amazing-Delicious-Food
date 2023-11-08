@@ -227,6 +227,24 @@ body.nav-active {overflow: hidden;}
   margin-inline: auto;
 }
 
+.hover-underline{
+  position: relative;
+  max-width: max-content;
+}
+
+.hover-underline::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 5px;
+  border-block: 1px solid var(--gold-crayola);
+  transform: scaleX(.02);
+  opacity: 0;
+  transition: var(--transition-2);
+}
+
 
 
 
