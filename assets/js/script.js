@@ -13,3 +13,35 @@ window.addEventListener("load", function () {
     preloader.classList.add("loaded");
     this.document.body.classList.add("loaded")
 })
+
+
+
+
+/**
+ * add envent listener on multiple elements
+ */
+
+const addEventOnElements = function (elements, evenType, callback) {
+    for (let i = 0, len = elements.length; i < len; i++) {
+        elements[i].addEventListener(evenType,callback);
+    }
+}
+
+
+
+/**
+ * NAVBAR
+ */
+
+const navbar =document.querySelector("[data-navbar]");
+const navTogglers = document.querySelectorAll("[data-nav-toggler]");
+const overlay = document.querySelector("[data-overlay]");
+
+const toggleNavbar = function () {
+    navbar.classList.toggle("active")
+    overlay.classList.toggle("active")
+    document.body.cla
+    ssList.toggle("nav-active")
+}
+
+addEventOnElements(navTogglers, "click", toggleNavbar)
