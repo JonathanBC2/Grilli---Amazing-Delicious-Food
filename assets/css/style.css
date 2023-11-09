@@ -526,6 +526,13 @@ body.nav-active {overflow: hidden;}
 
 .sidebar-link:is(:hover, :focus-visible) {color: var(--gold-crayola);}
 
+.navbar .text-center .separator {
+  margin-block: 30px;
+  margin-inline: auto;
+}
+
+.navbar .body-4 { color: var(--quick-silver);}
+
 
 
 /*-----------------------------------*\
