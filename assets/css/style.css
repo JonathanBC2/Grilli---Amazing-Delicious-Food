@@ -522,6 +522,8 @@ body.nav-active {overflow: hidden;}
 
 .navbar-text { margin-block: 10px;}
 
+.navbar .body-4 { color: var(--quick-silver);}
+
 .sidebar-link { transition: var(--transition-1);}
 
 .sidebar-link:is(:hover, :focus-visible) {color: var(--gold-crayola);}
@@ -531,7 +533,10 @@ body.nav-active {overflow: hidden;}
   margin-inline: auto;
 }
 
-.navbar .body-4 { color: var(--quick-silver);}
+.navbar .contact-label { margin-block-end: 10px;}
+
+.navbar::-webkit-scrollbar-thumb { background-color: var(--white-alpha-10);}
+
 
 
 
