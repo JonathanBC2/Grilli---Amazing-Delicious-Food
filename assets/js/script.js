@@ -55,6 +55,13 @@ const header = document.querySelector("[data-header]");
 
 let lastScrollPos = 0;
 
-const hideHeader = function () {
-    
+const hideHeader = function () {   
 }
+
+window.addEventListener("scroll", function () {
+    if (window.scrolly >= 50) {
+        header.classList.add("active");
+    } else {
+        header.classList.remove("active");
+    }
+})
