@@ -339,6 +339,31 @@ body.nav-active {overflow: hidden;}
   z-index: 1;
 }
 
+.btn::before {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200%;
+  height: 200%;
+  border-radius: var(--radius-circle);
+  background-color: var(--gold-crayola);
+  transition: var(--transition-2);
+  z-index: -1;
+}
+
+.btn .text { transition: var(--transition-1);}
+
+.btn .text-2 {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50);
+  min-width: max-content;
+  color: var(--smoky-black-1);
+}
+
 
 
 
