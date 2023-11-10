@@ -69,6 +69,7 @@ const hideHeader = function () {
 window.addEventListener("scroll", function () {
     if (window.scrollY >= 50) {
         header.classList.add("active");
+        hideHeader();
     } else {
         header.classList.remove("active");
     }
