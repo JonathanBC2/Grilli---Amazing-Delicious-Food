@@ -364,7 +364,7 @@ body.nav-active {overflow: hidden;}
   color: var(--smoky-black-1);
 }
 
-.btn:is(:hover, :focus-visible)::before { bottom: -50;}
+.btn:is(:hover, :focus-visible)::before { bottom: -50; }
 
 
 
