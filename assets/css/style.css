@@ -359,7 +359,7 @@ body.nav-active {overflow: hidden;}
   position: absolute;
   top: 100%;
   left: 50%;
-  transform: translateX(-50);
+  transform: translateX(-50%);
   min-width: max-content;
   color: var(--smoky-black-1);
 }
