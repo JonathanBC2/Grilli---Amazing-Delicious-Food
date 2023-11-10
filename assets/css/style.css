@@ -373,6 +373,10 @@ body.nav-active {overflow: hidden;}
   transform: translate(-50%, -50%);
 }
 
+.btn-secondary::before { background-color: var(--smoky-black-1);}
+
+.btn-secondary .text-2 { color: var(--white);}
+
 
 
 
