@@ -377,6 +377,18 @@ body.nav-active {overflow: hidden;}
 
 .btn-secondary .text-2 { color: var(--white);}
 
+.has-before,
+.has-after {
+  position: relative;
+  z-index: 1;
+}
+
+.has-before::before,
+.has-after::after {
+  content: "";
+  position: absolute;
+}
+
 
 
 
@@ -707,6 +719,20 @@ body.nav-active {overflow: hidden;}
   padding: 12px;
   transform: scale(0.6);
 }
+
+.hero-btn img {
+  margin-inline: auto;
+  font-weight: var(--weight-bold);
+}
+
+.hero-btn .span {
+  color: var(--black);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--letterSpacing-1);
+  line-height: var(--lineHeight-3);
+}
+
 
 
 /*-----------------------------------*\
