@@ -739,6 +739,11 @@ body.nav-active {overflow: hidden;}
   animation: rotate360 15s linear infinite;
 }
 
+.slider-reveal {
+  transform: translateY(30px);
+  opacity: 0;
+}
+
 
 
 /*-----------------------------------*\
