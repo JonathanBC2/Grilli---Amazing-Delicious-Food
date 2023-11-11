@@ -733,6 +733,12 @@ body.nav-active {overflow: hidden;}
   line-height: var(--lineHeight-3);
 }
 
+.hero-btn::after {
+  inset: 0;
+  border: 1px solid var(--gold-crayola);
+  animation: rotate 15s linear infinite;
+}
+
 
 
 /*-----------------------------------*\
