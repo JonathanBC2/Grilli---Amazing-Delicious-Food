@@ -759,6 +759,12 @@ body.nav-active {overflow: hidden;}
   }
 }
 
+.hero .slider-item.active .section-subtitle { animation-delay: 500ms; }
+
+.hero .slider-item.active .hero-title { animation-delay: 1000ms; }
+
+.hero .slider-item.active .section-text { animation-delay: 1.5s; }
+
 
 
 /*-----------------------------------*\
