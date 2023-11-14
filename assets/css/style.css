@@ -744,6 +744,21 @@ body.nav-active {overflow: hidden;}
   opacity: 0;
 }
 
+.hero .slider-item.active .slider-reveal {
+  animation: shliderReveal 1s ease forwards;
+}
+
+@keyframes shliderReveal {
+  0% {
+    transform: translateY(30px);
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
 
 
 /*-----------------------------------*\
