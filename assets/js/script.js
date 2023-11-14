@@ -85,3 +85,13 @@ const heroSlider = document.querySelector("[data-hero-slider]");
 const heroSliderItems = document.querySelectorAll("[data-hero-slider-item]");
 const heroSliderNextBtn = document.querySelector("[data-prev-btn]");
 const heroSliderNextBttn = document.querySelector("[data-next-btn]");
+
+let currentLSlidePos = 0;
+let lastActivesSliderItem = heroSliderItems[0];
+
+const updataSliderpos = function () {
+    lastActivesSliderItem.classList.remove("active");
+    heroSliderItems[currentLSlidePos].classList.add("active");
+    lastActivesSliderItem = heroSliderItems[currentLSlidePos];
+}
+
