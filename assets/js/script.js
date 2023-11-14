@@ -107,10 +107,21 @@ const sliderNext = function () {
 
 heroSliderNextBtn.addEventListener("click", sliderNext);
 
-const slideprev = function () {
-if (currentSlidePos <= 0) {
-    currentSlidePos = heroSliderItems.length -1;
-} else {
-    currentSlidePos
+const slidePrev = function () {
+    if (currentSlidePos <= 0) {
+        currentSlidePos = heroSliderItems.length -1;
+    } else {
+    currentSlidePos--;
+    }
+
+    updataSliderpos();
 }
-}
+
+heroSliderPrevBtn.addEventListener("click", slidePrev);
+
+/**
+ * auto slide
+ */
+
+let autoSlideInterval;
+
