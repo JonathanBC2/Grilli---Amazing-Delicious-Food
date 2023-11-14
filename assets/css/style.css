@@ -765,6 +765,8 @@ body.nav-active {overflow: hidden;}
 
 .hero .slider-item.active .section-text { animation-delay: 1.5s; }
 
+.hero .slider-item.active .btn { animation-delay: 2s; }
+
 
 
 /*-----------------------------------*\
