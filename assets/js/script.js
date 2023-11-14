@@ -87,9 +87,9 @@ const heroSliderPrevBtn = document.querySelector("[data-prev-btn]");
 const heroSliderNextBtn = document.querySelector("[data-next-btn]");
 
 let currentSlidePos = 0;
-let lastActivesSliderItem = heroSliderItems[0];
+let lastActiveSliderItem = heroSliderItems[0];
 
-const updataSliderPos = function () {
+const updateSliderPos = function () {
     lastActiveSliderItem.classList.remove("active");
     heroSliderItems[currentSlidePos].classList.add("active");
     lastActiveSliderItem = heroSliderItems[currentSlidePos];
@@ -102,7 +102,7 @@ const slideNext = function () {
         currentSlidePos++;
     }
 
-    updataSliderpos();
+    updateSliderPos();
 }
 
 heroSliderNextBtn.addEventListener("click", slideNext);
