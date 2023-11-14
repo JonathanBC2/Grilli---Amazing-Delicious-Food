@@ -82,6 +82,6 @@ window.addEventListener("scroll", function () {
  */
 
 const heroSlider = document.querySelector("[data-hero-slider]");
-const heroSliderItems = document.querySelector("[data-hero-slider-item]");
+const heroSliderItems = document.querySelectorAll("[data-hero-slider-item]");
 const heroSliderNextBtn = document.querySelector("[data-prev-btn]");
 const heroSliderNextBttn = document.querySelector("[data-next-btn]");
