@@ -83,15 +83,34 @@ window.addEventListener("scroll", function () {
 
 const heroSlider = document.querySelector("[data-hero-slider]");
 const heroSliderItems = document.querySelectorAll("[data-hero-slider-item]");
-const heroSliderNextBtn = document.querySelector("[data-prev-btn]");
-const heroSliderNextBttn = document.querySelector("[data-next-btn]");
+const heroSliderPrevBtn = document.querySelector("[data-prev-btn]");
+const heroSliderNextBtn = document.querySelector("[data-next-btn]");
 
-let currentLSlidePos = 0;
+let currentSlidePos = 0;
 let lastActivesSliderItem = heroSliderItems[0];
 
 const updataSliderpos = function () {
     lastActivesSliderItem.classList.remove("active");
-    heroSliderItems[currentLSlidePos].classList.add("active");
-    lastActivesSliderItem = heroSliderItems[currentLSlidePos];
+    heroSliderItems[currentSlidePos].classList.add("active");
+    lastActivesSliderItem = heroSliderItems[currentSlidePos];
 }
 
+const sliderNext = function () {
+    if (currentSlidePos >= heroSliderItems - 1) {
+        currentSlidePos = 0;
+    } else {
+        currentSlidePos++;
+    }
+
+    updataSliderpos();
+}
+
+heroSliderNextBtn.addEventListener("click", sliderNext);
+
+const slideprev = function () {
+if (currentSlidePos <= 0) {
+    currentSlidePos = heroSliderItems.length -1;
+} else {
+    currentSlidePos
+}
+}
