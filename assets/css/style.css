@@ -412,7 +412,7 @@ body.nav-active {overflow: hidden;}
   left: 0;
   width: 50%;
   height: 100%;
-  background-image: linear-gradient(to right, transparent 0%, #fff6 100);
+  background-image: linear-gradient(to right, transparent 0%, #fff6 100%);
   transform: skewX(-0.08turn) translateX(-180%);
 }
 
