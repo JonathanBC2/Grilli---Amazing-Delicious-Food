@@ -389,7 +389,12 @@ body.nav-active {overflow: hidden;}
   position: absolute;
 }
 
-
+.section {
+  position: relative;
+  padding-block: var(--section-space);
+  overflow: hidden;
+  z-index: 1;
+}
 
 
 
