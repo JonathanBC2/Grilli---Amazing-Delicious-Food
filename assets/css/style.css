@@ -396,6 +396,31 @@ body.nav-active {overflow: hidden;}
   z-index: 1;
 }
 
+.bg-black-10 { background-color: var(--smoky-black-2);}
+
+.grid-list {
+  display: grid;
+  gap: 40px;
+}
+
+.hover\:shine { position: relative;}
+
+.hover\:shine::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  background-image: linear-gradient(to right, transparent 0%, #fff6 100);
+  transform: skewX(-0.08turn) translateX(-180%);
+}
+
+.hover\:shine:is(:hover, :focus-within)::after {
+  transform: skewX(-0.08turn) translateX(275%);
+  transition: var(--transition-3);
+}
+
 
 
 
