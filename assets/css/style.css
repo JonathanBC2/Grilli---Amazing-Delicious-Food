@@ -841,6 +841,22 @@ body.nav-active {overflow: hidden;}
 }
 
 
+.service-card .has-before::before {
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140%;
+  height: 100%;
+  background-image: url('../images/img-pattern.svg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat;
+  transition: var(--transition-2);
+  transition-delay: 0;
+  z-index: -1;
+  will-change: transform;
+}
+
 
 
 
