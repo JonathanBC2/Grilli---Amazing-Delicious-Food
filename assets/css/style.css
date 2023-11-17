@@ -884,6 +884,16 @@ body.nav-active {overflow: hidden;}
   margin-block-start: 26px;
 }
 
+.about .container {
+  display: grid;
+  gap: 120px;
+}
+
+.about-banner {
+  position: relative;
+  margin-block-end: 120px;
+}
+
 
 
 
