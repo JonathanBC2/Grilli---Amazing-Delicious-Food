@@ -151,7 +151,7 @@ let x, y;
 
 window.addEventListener("mousemove", function (event) {
 
-    x = (event.clientX / window.innerWidth * 10 ) -5;
+    x = (event.clientX / window.innerWidth * 10) -5;
     y = (event.clientY / window.innerHeight * 10) - 5;
 
     // reverse the number eg. 20 -> -20, -> 5
