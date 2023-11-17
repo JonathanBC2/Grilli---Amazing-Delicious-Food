@@ -446,6 +446,7 @@ body.nav-active {overflow: hidden;}
   z-index: -1;
 }
 
+.w-100 { width: 100%;}
 
 
 
@@ -874,6 +875,14 @@ body.nav-active {overflow: hidden;}
 /*-----------------------------------*\
   #ABOUT
 \*-----------------------------------*/
+
+
+.about .section-text { margin-block: 15px 30px; }
+
+.about .btn {
+  margin-inline: auto;
+  margin-block-start: 26px;
+}
 
 
 
