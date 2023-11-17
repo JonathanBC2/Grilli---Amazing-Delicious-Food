@@ -142,7 +142,7 @@ window.addEventListener("load", autoSlide);
 
 
 /**
- * PARALLAX EFFECT
+ * PARALLAX EFFECT          problem
  */
 
 const parallaxItems = document.querySelectorAll("[data-parallax-item]");
