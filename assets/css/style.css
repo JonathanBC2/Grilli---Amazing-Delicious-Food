@@ -907,6 +907,30 @@ body.nav-active {overflow: hidden;}
   padding-block: 50px;
 }
 
+.about .abs-img-2 {
+  top: -65px;
+  right: 0;
+  overflow: hidden;
+}
+
+.about .abs-img-2::before {
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 140px;
+  background-image: url('../images/img-pattern.svg');
+  background-repeat: repeat;
+}
+
+.about .abs-img-2::before {
+  inset: 0;
+  background-image: url('../images/badge-2-bg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  animation: rotate360 15s linear infinite;
+}
+
 
 
 
