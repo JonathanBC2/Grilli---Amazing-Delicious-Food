@@ -956,6 +956,15 @@ body.nav-active {overflow: hidden;}
   margin-block-end: 40px;
  }
 
+ .special-dish-content .del {
+  text-decoration: none;
+  color: var(--davys-grey);
+ }
+
+ .special-dish-content .span { color:  var(--gold-crayola); }
+
+ .special-dish .btn { margin-inline: auto; }
+
 
 
 
