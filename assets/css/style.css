@@ -1075,6 +1075,19 @@ body.nav-active {overflow: hidden;}
   position: static;
 }
 
+.testi .quote {
+  font-size: 7rem;
+  font-family: var(--fontFamily-forum);
+  line-height: 0.7em;
+}
+
+.testi .wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-block: 40px 50px;
+}
+
 
 
 
