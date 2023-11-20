@@ -1088,6 +1088,7 @@ body.nav-active {overflow: hidden;}
   margin-block: 40px 50px;
 }
 
+.testi .separator { animation: rotate360 15s linear infinite;}
 
 
 
