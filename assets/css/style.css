@@ -1070,7 +1070,10 @@ body.nav-active {overflow: hidden;}
   #TESTIMONIALS
 \*-----------------------------------*/
 
-
+.testi {
+  padding-block-end: 340px;
+  position: static;
+}
 
 
 
