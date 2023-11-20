@@ -1017,7 +1017,7 @@ body.nav-active {overflow: hidden;}
   margin-block: 10px;
 }
 
-.menu-card .menu-text {
+.menu-card .card-text {
   color: var(--quick-silver);
   line-height: var(--lineHeight-4);
 }
