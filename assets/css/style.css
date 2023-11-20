@@ -1012,6 +1012,21 @@ body.nav-active {overflow: hidden;}
   margin-block-start: 10px;
 }
 
+.menu-card .span {
+  color: var(--gold-crayola);
+  margin-block: 10px;
+}
+
+.menu-card .menu-text {
+  color: var(--quick-silver);
+  line-height: var(--lineHeight-4);
+}
+
+
+
+
+
+
 
 /*-----------------------------------*\
   #TESTIMONIALS
