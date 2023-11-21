@@ -1169,6 +1169,11 @@ body.nav-active {overflow: hidden;}
   line-height: var(--lineHeight-3);
 }
 
+.form-right .body-4:not(:last-child) { margin-block-end: 25px;}
+
+.form-left,
+.form-right {padding: 40px 20px 30px;}
+
 
 
 
