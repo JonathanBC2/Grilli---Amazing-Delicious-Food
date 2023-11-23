@@ -1249,7 +1249,7 @@ textarea.input-field {
 }
 
 .event-card .card-content {
-  background-color: var(--gradient-1);
+  background-image: var(--gradient-1);
   position: absolute;
   bottom: 0;
   width: 100%;
