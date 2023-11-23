@@ -1275,6 +1275,10 @@ textarea.input-field {
   margin-block-end: 5px;
 }
 
+.event-card .card-banner .img-cover { transition: var(--transition-2);}
+
+.event-card:is(:hover, :focus-visible) .img-cover { transform: scale(1.05);}
+
 
 
 
