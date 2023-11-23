@@ -1032,7 +1032,7 @@ body.nav-active {overflow: hidden;}
   #MENU
 \*-----------------------------------*/
 
-.menu .section-title { margin-block-end: 40px; }
+.menu .section-title { margin-block-end: 40%; }
 
 .menu .grid-list { margin-block-end: 50px;}
 
