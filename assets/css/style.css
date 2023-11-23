@@ -1241,6 +1241,32 @@ textarea.input-field {
   #EVENT
 \*-----------------------------------*/
 
+.event .secction-title { margin-block-end: 40px;}
+
+.event-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.event-card .card-content {
+  background-color: var(--gradient-1);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 35px 35px 25px;
+}
+
+.event-card .publish-date {
+  position: absolute;
+  top: 30px;
+  left: 25px;
+  padding: 5px 10px;
+  color: var(--gold-crayola);
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--letterSpacing-1);
+  line-height: 14px;
+}
+
 
 
 
