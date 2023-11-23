@@ -1267,6 +1267,14 @@ textarea.input-field {
   line-height: 14px;
 }
 
+.event-card .card-subtitle {
+  color: var(--gold-crayola);
+  text-transform: uppercase;
+  font-weight: var(--weight-bold);
+  letter-spacing: var(--letterSpacing-2);
+  margin-block-end: 5px;
+}
+
 
 
 
