@@ -1481,7 +1481,7 @@ textarea.input-field {
   .topbar:has(~.header.active) { transform: translateY(-100%);}
 
   .topbar-item:not(.link),
-  .topbar, .separator { display: none;}
+  .topbar .separator { display: none;}
 
   .topbar .container,
   .topbar-item {
