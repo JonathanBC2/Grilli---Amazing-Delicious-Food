@@ -1537,7 +1537,24 @@ textarea.input-field {
    *SERVICES
    */
 
-   
+  .service .container {
+    max-width: 420px;
+    margin-inline: auto;
+  }
+
+
+
+  /**
+   *ABOUT
+   */
+
+  .about .container { gap: 80px;}
+
+  .about-banner > .w-100 { padding-inline-start: 90px;}
+
+  .about .contact-number { --fonSize-body-1: 2.4rem; }
+
+
  
 
 }
