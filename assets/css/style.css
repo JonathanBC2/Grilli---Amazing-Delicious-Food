@@ -1428,3 +1428,54 @@ textarea.input-field {
 /*-----------------------------------*\
   #MEDIA QUERIES
 \*-----------------------------------*/
+
+/***
+*reponsive for larger than 574px screen
+*/
+
+@media (min-width: 575px) {
+
+  /***
+    * CUSTOM PROPERTY
+    */
+
+    :root {
+
+      /***
+      *typography
+      */
+
+    --fontSize-body-2: 2rem;
+
+  }
+
+
+  /***
+    *typography
+    */
+
+  :is(.services, .about) .section-text {
+    max-width: 420px;
+    margin-inline: auto;
+  }
+
+  .contact-number { --fontSize-body-1: 3rem; }
+
+
+  /**
+    *TOPBAR
+    */
+  
+  .topbar {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-block: 10px;
+    border-block-end: 1px solid var(--white-alpha-20);
+    z-index: 4;
+    transition: var(--transition-1);
+  }
+
+}
