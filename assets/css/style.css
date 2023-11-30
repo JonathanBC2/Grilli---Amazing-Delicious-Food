@@ -1199,7 +1199,7 @@ textarea.input-field {
 }
 
 .form-right {
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-position: top left;
 }
 
