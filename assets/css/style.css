@@ -1555,6 +1555,33 @@ textarea.input-field {
   .about .contact-number { --fonSize-body-1: 2.4rem; }
 
 
+  /**
+   *MENU
+   */
+
+  .menu-card .title-wapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .menu-card .badge { margin-block-start: 0; }
+
+  .menu-card .span {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+  }
+
+  .menu-card .span::before {
+    content: "";
+    height: 6px;
+    flex-grow: 1;
+    border-block: 1px solid var(--white-alpha-20);
+  }
  
 
 }
