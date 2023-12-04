@@ -1688,6 +1688,24 @@ textarea.input-field {
   /**
    *RESERVATION
    */
+  .reservation .input-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 20px;
+  }
+
+  .reservation .input-wrapper:nth-child(4) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+
+
+
+  /**
+   *FOOTER
+   */
+
+  .footer-brand { grid-column: 1 / 3;}
 }
 
 
