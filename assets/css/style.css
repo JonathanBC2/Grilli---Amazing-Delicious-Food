@@ -1781,7 +1781,7 @@ grid-template-columns: repeat(3, 1fr); }
  *ABOUT
  */
 
-.about .container{
+.about .container {
   grid-template: 0.7fr 1fr;
   gap: 30px;
 }
