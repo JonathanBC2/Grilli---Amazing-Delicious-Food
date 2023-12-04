@@ -1967,4 +1967,12 @@ textarea.input-field {
    *HERO
    */
 
+  .hero { height: 880px;}
+
+  .hero-btn {
+    bottom: 50px;
+    right: 50px;
+    transform: scale(1);
+  }
+
 }
