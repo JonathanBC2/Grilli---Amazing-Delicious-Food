@@ -450,7 +450,7 @@ body.nav-active {overflow: hidden;}
   margin-inline: auto;
   text-transform: uppercase;
   letter-spacing: var(--letterSpacing-3);
-  font-size: var(--weight-bold);
+  font-weight: var(--weight-bold);
   transition: var(--transition-1);
 }
 
