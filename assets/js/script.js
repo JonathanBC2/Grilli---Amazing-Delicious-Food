@@ -40,8 +40,7 @@ const overlay = document.querySelector("[data-overlay]");
 const toggleNavbar = function () {
     navbar.classList.toggle("active")
     overlay.classList.toggle("active")
-    document.body.cla
-    ssList.toggle("nav-active")
+    document.body.classList.toggle("nav-active")
 }
 
 addEventOnElements(navTogglers, "click", toggleNavbar)
