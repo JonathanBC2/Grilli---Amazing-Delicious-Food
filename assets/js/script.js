@@ -144,7 +144,7 @@ window.addEventListener("load", autoSlide);
 
 
 /**
- * PARALLAX EFFECT          problem
+ * PARALLAX EFFECT   
  */
 
 const parallaxItems = document.querySelectorAll("[data-parallax-item]");
@@ -156,7 +156,7 @@ window.addEventListener("mousemove", function (event) {
     x = (event.clientX / window.innerWidth * 10) -5;
     y = (event.clientY / window.innerHeight * 10) - 5;
 
-    // reverse the number eg. 20 -> -20, -> 5
+    // reverse the number eg. 20 -> -20, -5 -> 5
     x = x - (x * 2);
     y = y - (y * 2);
 
