@@ -1099,10 +1099,10 @@ body.nav-active {overflow: hidden;}
   color: var(--gold-crayola);
 }
 
-/* .menu .btn {
+.menu .btn {
   margin-inline: auto;
   margin-block-start: 26px;
-} */
+}
 
 .menu .shape {
   display: block;
