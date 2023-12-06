@@ -1308,7 +1308,7 @@ textarea.input-field {
 .footer-top { margin-inline-end: 70px;}
 
 .footer-brand {
-  position: relative;
+  position: center;
   padding: 50px 40px;
   background: var(--smoky-black-1) url("../images/footer-form-bg.png");
   background-position: center top;
