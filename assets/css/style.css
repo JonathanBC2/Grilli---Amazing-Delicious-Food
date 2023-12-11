@@ -1361,6 +1361,8 @@ textarea.input-field {
   color: var(--white);
 }
 
+.footer-brand .icon-wrapper { margin-block-end: 0;}
+
 .footer-brand .icon-wrapper .input-field { cursor: text;}
 
 .footer-brand .btn { min-width: 100%;}
