@@ -720,7 +720,6 @@ body.nav-active {overflow: hidden;}
 
 .navbar-link:is(:hover, :focus-visible, .active) .span {
   color: var(--gold-crayola);
-  transform: translateX(20px);
 }
 
 .navbar-link .separator{
