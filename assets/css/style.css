@@ -592,7 +592,7 @@ body.nav-active {overflow: hidden;}
   #TOPBAR
 \*-----------------------------------*/
 
-.topbar{ display: none;}
+.topbar .btn{ display: none;}
 
 
 
@@ -720,6 +720,7 @@ body.nav-active {overflow: hidden;}
 
 .navbar-link:is(:hover, :focus-visible, .active) .span {
   color: var(--gold-crayola);
+  transform: translateX(20px);
 }
 
 .navbar-link .separator{
@@ -1997,7 +1998,7 @@ textarea.input-field {
     transform: translateY(-160px) ;
   }
 
-  .service .section-text { margin-block-end: 100px;}
+  .service .section-text { margin-block-end: 75px;}
 
 
 
