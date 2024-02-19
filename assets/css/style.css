@@ -1458,7 +1458,7 @@ textarea.input-field {
 
 
   /***
-    *typography
+    *REUSED STYLE
     */
 
   :is(.services, .about) .section-text {
@@ -1808,6 +1808,9 @@ textarea.input-field {
   .special-dish-content { padding-inline: 50px 25px;}
 
   .special-dish-content .container { position: relative;}
+
+  .special-dish .section-subtitle::after,
+  .special-dish .btn { margin-inline: 0;}
 
   .special-dish-content .wrapper { justify-content: flex-start;}
 
