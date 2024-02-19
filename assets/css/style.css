@@ -1304,7 +1304,7 @@ textarea.input-field {
   #FOOTER
 \*-----------------------------------*/
 
-.footer-top { margin-inline: 70px;}
+.footer-top { margin-inline-end: 70px;}
 
 .footer-brand {
   position: relative;
