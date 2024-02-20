@@ -601,7 +601,7 @@ body.nav-active {overflow: hidden;}
 \*-----------------------------------*/
 
 
-.header {display: none;}
+.header .btn {display: none;}
 
 .header {
   position: fixed;
