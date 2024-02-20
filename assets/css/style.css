@@ -1998,7 +1998,11 @@ textarea.input-field {
     transform: translateY(-160px) ;
   }
 
-  .service .section-text { margin-block-end: 75px;}
+  .service .section-text { 
+    margin-block-end: auto;
+    max-width: 550px;
+    margin-inline: auto;
+  }
 
 
 
