@@ -592,7 +592,7 @@ body.nav-active {overflow: hidden;}
   #TOPBAR
 \*-----------------------------------*/
 
-.topbar .btn{ display: none;}
+.topbar { display: none;}
 
 
 
