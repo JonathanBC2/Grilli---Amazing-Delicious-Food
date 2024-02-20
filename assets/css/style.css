@@ -1999,7 +1999,7 @@ textarea.input-field {
   }
 
   .service .section-text { 
-    margin-block-end: auto;
+    margin-block-end: 75px;
     max-width: 550px;
     margin-inline: auto;
   }
