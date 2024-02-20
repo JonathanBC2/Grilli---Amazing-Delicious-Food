@@ -1849,7 +1849,7 @@ textarea.input-field {
 
   .testi-text {
     max-width: 910px;
-    /* margin-inline: auto; */
+    margin-inline: auto;
   }
 
 
