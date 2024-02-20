@@ -1810,8 +1810,8 @@ textarea.input-field {
 
   .special-dish-content .container { position: relative;}
 
-  .special-dish .section-subtitle::after,
-  .special-dish .btn { margin-inline: 0;}
+  /* .special-dish .section-subtitle::after,
+  .special-dish .btn { margin-inline: 0;} */
 
   .special-dish-content .wrapper { justify-content: flex-start;}
 
